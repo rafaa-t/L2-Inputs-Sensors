@@ -28,7 +28,7 @@ void loop()
   delay(10); // Delay a little bit to improve simulation performance
 
    
-  if (analogRead(A0) >= 332) {
+  if (analogRead(A0) >= 330) {
     digitalWrite(3, HIGH);
   } else {
     digitalWrite(3, LOW);
@@ -45,7 +45,7 @@ void loop()
 
 }
 
-//hey :)
+
 
 
 
